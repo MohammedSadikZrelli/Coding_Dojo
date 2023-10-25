@@ -1,4 +1,4 @@
-.x {
+.col1 {
     background-color: rgb(234, 241, 241);
     color: rgb(76, 170, 170);
     border:1px solid;
@@ -6,16 +6,17 @@
  
  
  }
- .y {
-    background-color: rgb(171, 238, 238);
-    color: rgb(231, 242, 242);
-    border:1px solid;
+ .col2 {
+   color: rgb(231, 242, 242);
+    background-color: rgb(171, 238, 238); 
     border-radius: 50px;
+    border:1px solid;
+    
  
  
  }
- .z {
-    background-color: rgb(46, 19, 219);
+ .col3 {
+    background-color: rgb(51, 32, 173);
     color: aliceblue;
-    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    box-shadow: 3px 3px rgb(21, 4, 4), -1em 0 .4em white;
  }
