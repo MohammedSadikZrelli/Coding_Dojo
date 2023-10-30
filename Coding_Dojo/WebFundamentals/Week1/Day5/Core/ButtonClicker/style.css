@@ -1,0 +1,72 @@
+
+.container{
+ display: flex;
+ background-color: #CCCCCC;
+     align-items: center;
+     justify-content: space-evenly;
+     margin: 0px 20px;
+}
+
+.login{
+ background: #2B78E4;
+ color: white;
+ box-shadow: 1px 3px 3px 0px black;
+}
+
+.nin{
+display: flex;
+border: solid ;
+margin: 20px;
+width: 500px;
+gap :6px;
+font-weight: bold;
+}
+
+
+.ninja{
+display: flex;
+border: solid ;
+margin: 20px;
+width: 300px;
+gap :6px;
+font-weight: bold;
+padding-bottom: 10Px;
+
+}
+
+.as{
+    background-color: #FFD966; 
+    box-shadow: 1px 2px 2px 1px;
+
+}
+.ad{
+   background-color: #FFD966; 
+   box-shadow: 1px 2px 2px 1px;
+
+}
+.left {
+    display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+gap: 40px;
+padding: 5px;
+
+
+}
+.definition{
+ border: solid;
+ display: flex;
+ flex-direction: column;
+ width: 150Px;
+ padding: 10PX;
+ gap: 1px; 
+margin-left: 400px;
+position: absolute;
+bottom: 500PX;
+
+
+}
+.add{
+    background-color: #93C47D;
+    color:black ;
+}
