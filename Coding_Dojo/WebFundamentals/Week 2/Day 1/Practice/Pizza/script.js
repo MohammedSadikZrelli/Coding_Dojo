@@ -5,7 +5,7 @@ var sandwich = {
     toppings: ["romaine lettuce", "heirloom tomatoes", "horseradish sauce"]
 };
 
-Pizza
+
     
 console.log(sandwich);
 
