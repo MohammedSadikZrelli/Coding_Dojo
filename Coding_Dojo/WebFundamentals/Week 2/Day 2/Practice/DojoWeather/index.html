@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="navbar">
+    <div><h1 class="hi">DojoWeather</h1></div>
+    <ul class="items">
+         <li class="b" onclick=ale();>BurBank</li>  
+         <li class="b" onclick=ale();>Chicago</li>  
+         <li class="b" onclick=ale();>Dallas</li>  
+    </ul>
+</div>
+
+<div class="temp">
+ <h2>San Jose</h1>
+    <div class="timp">
+    <p>show temperature in</p>
+    <select name="pets" id="degree" onchange="convertTemperature()">
+      <option value="celsius">°C</option>
+      <option value="fa">°F</option>
+    </select> 
+</div>
+  </div>
+  <div class="main"> 
+  <div class="one">
+    <h3>Today</h3>
+    <img class="tod" src="assets/some_rain.png" alt="">
+    <p><strong>some rain</strong></p>
+    <ul class="tompi">
+        <li><span class="f"><strong>24</strong></span></li>
+        <li><span class="s"><strong>18</strong></span></li>
+    </ul>
+</div>
+
+<div class="one">
+    <h3>Tomorrow</h3>
+    <img class="tod" src="assets/some_sun.png" alt="">
+    <p><strong>some sun</strong></p>
+    <ul class="tompi">
+        <li><span class="f"><strong>27</strong></span></li>
+        <li><span class="s"><strong>19</strong></span></li>
+    </ul>
+</div>
+<div class="one">
+    <h3>Friday</h3>
+    <img class="tod" src="assets/some_clouds.png" alt="">
+    <p><strong>some clouds</strong></p>
+    <ul class="tompi">
+        <li><span class="f"><strong>21</strong></span></li>
+        <li><span class="s"><strong>16</strong></span></li>
+    </ul>
+</div>
+<div class="one">
+    <h3>Saturday</h3>
+    <img class="tod" src="assets/some_sun.png" alt="">
+    <p><strong>some sun</strong></p>
+    <ul class="tompi">
+        <li><span class="f"><strong>26</strong></span></li>
+        <li><span class="s"><strong>11</strong></span></li>
+    </ul>
+</div>
+</div>
+<div class="cookie-box">
+    <ol class="itemss">
+       <li><img src="assets/cookie.png" alt=""></li>
+       <li><p><strong>Stop! Cookie Time</strong><br>We use cookies (sadly not the edible ones) to personalize content and ads, provide social media features, and analyze our traffic. <a href="#">Read more</a></p></li> 
+       <li><button class="accept-button" id="clearCookiesButton" onclick=x()>Accept</button></li> 
+    </ol>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
