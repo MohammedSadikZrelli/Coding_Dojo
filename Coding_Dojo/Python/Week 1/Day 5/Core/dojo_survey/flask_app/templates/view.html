@@ -1,0 +1,21 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Page</title>
+    <!-- You can include a CSS framework here (e.g., Bootstrap) for styling -->
+</head>
+<body>
+    <h1>Result Page</h1>
+    <p>Name: {{ name }}</p>
+    <p>Email: {{ email }}</p>
+    <!-- Display radio button and checkbox selections if available -->
+    {% if 'gender' in session %}
+        <p>Gender: {{ session['gender'] }}</p>
+    {% endif %}
+    {% if 'interests' in session %}
+        <p>Interests: {{ ', '.join(session['interests']) }}</p>
+    {% endif %}
+</body>
+</html>
