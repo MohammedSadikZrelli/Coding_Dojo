@@ -1,0 +1,18 @@
+<!-- dojo_show.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ dojo[1] }} Dojo</title>
+</head>
+<body>
+    <h1>{{ dojo[1] }} Dojo</h1>
+    <h2>Ninjas:</h2>
+    <ul>
+        {% for ninja in ninjas %}
+            <li>{{ ninja[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
