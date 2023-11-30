@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h2>Counter</h2>
+    {{ visits }} time 
+    <form method="post" action="{{ url_for('index') }}">
+        <button type="submit">Add Two visits</button>
+    </form>
+    <form method="post" action="{{ url_for('destroy_session') }}">
+        <button type="submit">Reset</button>
+    </form>
+</body>
+</html>
