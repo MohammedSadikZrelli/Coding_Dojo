@@ -10,5 +10,5 @@ delete from users_schema.users where (id=2);
 select * from users_schema.users where (id=2); # rip bouhmid
 SELECT * FROM users_schema.users
 ORDER BY first_name;
-SELECT * FROM users_schema.users
+SELECT * FROM users_schema.usersdojos
 ORDER BY  first_name desc;
