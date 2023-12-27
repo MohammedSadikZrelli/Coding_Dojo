@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+}
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1{
+  font-size: 4rem;
+}
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.add-button{
+  background-color: aquamarine;
+}
+.add-button:hover{
+  background-color: aquamarine;
+}
+.delete-button{
+  background-color: red;
+}
+.delete-button:hover{
+  background-color: red;
+}
+.move-button{
+  background-color: blue;
+}
+.move-button:hover{
+  background-color: blue;
+}
+.down-button{
+  background-color: aquamarine;
+}
+.down-button:hover{
+  background-color: rgb(255, 127, 249);
+}
+
+
+input [type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  color :rgb(24, 38, 238);
+}
+ol {
+  padding: 0;
+}
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgb(160, 146, 146);
+  margin-bottom: 10px;
+  border:3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text
+{
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis:0% ;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+}
